@@ -1,0 +1,74 @@
+#entrance-website-name{
+
+  text-align: center;
+
+  padding: 10px;
+
+  background: rgba(11, 7, 18, 0.92);
+  box-shadow: 0 0 200px rgba(7, 3, 32, 0.96) inset;
+
+  color:white;
+
+  font-size: 35px;
+  margin: 0 !important;
+
+}
+
+
+#login-form{
+
+color:white;
+
+text-align: justify;
+
+background: rgba(9, 27, 40, 0.89);
+
+width: 60%;
+
+margin-left: auto;
+margin-right: auto;
+
+box-shadow: 0 4px 6px rgba(0,0,0,.3);
+
+border-radius: 0;
+outline: 0;
+
+padding-top: 50px;
+padding-left: 25px;
+padding-right: 25px;
+padding-bottom: 50px;
+
+}
+
+.form-input{
+  width: 100%;
+  text-align: center;
+  color:black;
+  border:none;
+  outline:none;
+  border-radius: 20px;
+}
+
+#form-button{
+  border:solid thin white;
+  padding: 10px;
+  letter-spacing: 2px;
+  color:white;
+  border-radius: 0px;
+  outline:none;
+  font-size: 12px;
+  background: transparent;
+  width: 15%;
+margin-left: 15px;
+margin-top: 15px;
+}
+
+
+#body-background{
+  background: rgba(72,61,139 ,1);
+  box-shadow: 0 0 150px rgba(1, 1, 1, 0.50) inset;
+  height: 100vh;
+  width: 100%;
+margin: 0 !important;
+  padding-top: 80px;
+}

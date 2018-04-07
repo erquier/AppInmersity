@@ -1,0 +1,187 @@
+#navbar{
+  margin:0 !important;
+  padding: 0 !important;
+  width: 100%;
+  text-align: center;
+}
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(2, 0, 14, 1);
+}
+
+.navbar  li {
+    float: left;
+}
+
+.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+
+
+
+#sidebar::-webkit-scrollbar{padding: 3px; background: black;}
+#sidebar::-webkit-scrollbar-thumb{ padding: 3px; background: rgba(19, 0, 54, 1);}
+
+#sidebar{
+  display: block;
+  margin-top: 42px !important;
+  width: 25%;
+  float:left;
+  height: 100vh;
+  margin: 0;
+  padding-top: 35px;
+  padding-bottom: 50px;
+  padding-left: 0;
+  padding-right: 0;
+  background: rgba(11, 7, 18, 0.92);
+  box-shadow: 0 0 200px rgba(7, 3, 32, 0.96) inset;
+}
+#items-list{
+  color:white;
+  list-style: none;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+#items-list ul{
+  list-style-type: none;
+}
+#items-list li a{
+  display: block;
+  width: inherit;
+  max-width: 100%;
+  padding: 10px;
+  margin-top:15px;
+  margin-bottom: 15px;
+font-size: 18px;
+color:white;
+margin-left: -18px;
+text-decoration: none;
+outline: none;
+}
+
+
+
+
+#main-container::-webkit-scrollbar{padding: 1px; width:4px; background: black; border-radius: 10px; height: 5px;}
+#main-container::-webkit-scrollbar-thumb{ padding: 1px; width:4px; background: rgba(8, 13, 55, 1); border-radius: 50px !important;}
+
+#main-container{
+background: rgba(12, 4, 29, 1);
+width: 75%;
+float:right;
+height: 100vh;
+margin: 0;
+padding: 6px;
+z-index: 1;
+margin-top: 42px !important;
+padding-top: 35px;
+padding-bottom: 50px;
+box-shadow: 0 0 200px rgba(7, 3, 32, 0.96) inset;
+overflow-y: scroll;
+overflow-x: hidden;
+
+}
+
+#preview-songs{
+  margin-top: -15px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  width: 95%;
+  box-shadow: 0 4px 6px rgba(0,0,0,.3);
+  padding: 0;
+}
+
+
+.artist-follow-btn{
+  border-radius: 1px;
+  background: transparent;
+  color: rgba(217, 36, 30, 1);
+  padding: 10px;
+  letter-spacing: 2px;
+  border:solid rgba(217, 36, 30, 1) thin;
+  margin-right: 10px;
+text-align: center;
+}
+.artist-perfil-btn{
+  border-radius: 1px;
+  background: transparent;
+  color: rgba(112, 30, 217, 1);
+  padding: 10px;
+  letter-spacing: 2px;
+  border:solid rgba(112, 30, 217, 1) thin;
+  margin-left: 10px;
+text-align: center;
+}
+
+#albums::-webkit-scrollbar{padding: 1px; width:4px; background: transparent;}
+#albums::-webkit-scrollbar-thumb{ padding: 1px; width:4px; background: transparent;}
+
+#albums{
+  margin: 0;
+  display:flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  -ms-overflow-style: -ms-autohiding-scrollbar
+}
+
+.albums-portraits{
+  flex: 0 0 auto;
+ box-shadow: 0 4px 6px rgba(0,0,0,.3);
+ padding: 0;
+ background: rgba(22, 28, 32, 1);
+ color:white;
+ text-align: center;
+ padding-bottom: 15px;
+ margin-left: 10px;
+ margin-right: 10px;
+ margin-bottom: 10px;
+ display: inline-block;
+ float: none;
+}
+.albums-portraits button{
+  background: transparent;
+  color:white;
+  padding: 10px;
+  letter-spacing: 2px;
+  border:solid white thin;
+  border-radius: 0px;
+}
+
+#artists::-webkit-scrollbar{padding: 1px; width:4px; background: transparent;}
+#artists::-webkit-scrollbar-thumb{ padding: 1px; width:4px; background: transparent;}
+
+#artists{
+  margin: 0;
+  display:flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  -ms-overflow-style: -ms-autohiding-scrollbar
+}
+
+.artists-portraits{
+  flex: 0 0 auto;
+ box-shadow: 0 4px 6px rgba(0,0,0,.3);
+ padding: 0;
+ background: rgba(22, 28, 32, 1);
+ color:white;
+ text-align: center;
+ padding-bottom: 15px;
+ margin-left: 10px;
+ margin-right: 10px;
+ margin-bottom: 10px;
+ display: inline-block;
+ float: none;
+}
