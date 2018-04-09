@@ -1,29 +1,18 @@
 
-public class Album {
+public class Songs{
 	
 	private String title;
 	private String artist;
 	private int year;
-	private String country;
-
-	public Album(String title, String artist, int year) {
+	private String featuring;
+	
+	
+	public Songs(String title, String artist, int year) {
 		super();
 		this.title = title;
 		this.artist = artist;
 		this.year = year;
 	}
-	
-	
-	public Album(String title, String artist, int year, String country) {
-		super();
-		this.title = title;
-		this.artist = artist;
-		this.year = year;
-		this.country = country;
-	}
-	
-
-
 	public String getTitle() {
 		return title;
 	}
@@ -42,17 +31,12 @@ public class Album {
 	public void setYear(int year) {
 		this.year = year;
 	}
-
-
-	public String getCountry() {
-		return country;
+	public String getFeaturing() {
+		return featuring;
 	}
-
-
-	public void setCountry(String country) {
-		this.country = country;
+	public void setFeaturing(String featuring) {
+		this.featuring = featuring;
 	}
-	
 	
 	
 	

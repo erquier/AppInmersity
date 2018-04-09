@@ -19,7 +19,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
     <link rel="stylesheet" type="text/css" href="/styles.css">
-    <script src="/sidebar.js"></script>
+    <script src=""></script>
 
 
   </head>
@@ -30,7 +30,7 @@
 <ul>
 
 <div id="navbar-goback-btn" style="float:left;">
-<li><button id="hide-show-navbar" onclick="ShowHideNavbar()" style="background:transparent; outline:none; border:none;"><a class="fas fa-align-center" style="color:white; font-size:2em; padding:2px; margin-left:10px; margin-top:5px; transform: rotate(180deg);"></a></button></li>
+<li><button  style="background:transparent; outline:none; border:none;"><a class="fas fa-align-center" style="color:white; font-size:2em; padding:2px; margin-left:10px; margin-top:5px; transform: rotate(180deg);"></a></button></li>
 </div>
 
 <input type="text" style="width:30%; border-radius:30px; margin-top:10px; border:none; color:black; text-align:center; overflow:hidden; outline:none;"/>
@@ -53,10 +53,11 @@
 <div id="sidebar" class="sidebar">
 <ul id="items-list">
 
-<li><a> Artists </a></li>
-<li><a> Songs </a></li>
-<li><a> Albums </a></li>
-<li><a> More </a></li>
+<li><a href="/home"> Home </a></li>
+<li><a href="/account"> Account </a></li>
+<li><a href="/addnew"> Add album </a></li>
+<li><a href="/artist"> Artists </a></li>
+<li><a href="/coming"> More coming soon.. </a></li>
 
 
 
@@ -94,16 +95,6 @@
         </div>
 
       </div>
-
-      <!-- Left and right controls -->
-      <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-        <span class="glyphicon glyphicon-chevron-left"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="right carousel-control" href="#myCarousel" data-slide="next">
-        <span class="glyphicon glyphicon-chevron-right"></span>
-        <span class="sr-only">Next</span>
-      </a>
     </div>
   </div>
 

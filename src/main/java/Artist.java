@@ -1,28 +1,54 @@
 import java.util.ArrayList;
 
-public class Artist {
-	private String name;
-	private ArrayList<String> role = new ArrayList<String>();
+public class Artist extends App {
+
+	
+	
+	public ArrayList<String> Artistas = new ArrayList<String>();
 	
 	
 	
 	
-	public Artist(String name, ArrayList<String> role) {
+
+	public ArrayList<String> getArtists() {
+		return Artistas;
+	}
+
+	public void setArtists(ArrayList<String> artists) {
+		Artistas = artists;
+	}
+
+	public Artist(ArrayList<String> artistas) {
 		super();
-		this.name = name;
-		this.role = role;
+		Artistas = artistas;
 	}
-	public String getName() {
-		return name;
+
+	public Artist() {
+		// TODO Auto-generated constructor stub
+		super();
+		Artistas = Artistas;
 	}
-	public void setName(String name) {
-		this.name = name;
-	}
-	public ArrayList<String> getRole() {
-		return role;
-	}
-	public void setRole(ArrayList<String> role) {
-		this.role = role;
-	}
-		
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 }

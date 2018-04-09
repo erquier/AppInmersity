@@ -29,21 +29,13 @@
 
 
 
-
-<div id="entrance-website-name" class="jumbotron">
-
-<h1>Inmersity</h1>
-
-</div>
-
-
 <div id="body-background">
 
 
 <div id="login-form" class="container">
 
 <div style="float:left; width:80%;">
-<form class="row" action="/login" method="post">
+<form class="row" action="/register" method="post">
 
 <div class="form-group col-md-6">
 <h3 class="form-label">Name</h3>
